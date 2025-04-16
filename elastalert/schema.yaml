@@ -644,7 +644,7 @@ properties:
   jira_description: {type: string}
   jira_label: *arrayOfString
   jira_labels: *arrayOfString
-  jira_priority: {type: number}
+  jira_priority: {type: ["number", "null"]}
   jira_watchers: *arrayOfString
   jira_bump_tickets: {type: boolean}
   jira_ignore_in_title: {type: string}
